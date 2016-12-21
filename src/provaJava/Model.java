@@ -12,6 +12,14 @@ public class Model {
 		if(!parole.contains(parolaNuova))                    
 			parole.add(parolaNuova);
 	}
+	public void stampaLista(){
+		for(String s : parole){
+			System.out.println(s +"" );
+		}
+		//System.out.println(parole.toString());
+	}
+	
+	
 	
 	public boolean parolaPresente (String parolaNuova){
 		if(parole.contains(parolaNuova)){

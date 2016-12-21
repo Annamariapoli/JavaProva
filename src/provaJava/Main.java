@@ -13,16 +13,18 @@ public class Main {
 		String s7 = "luppolo";
 		String s8 = "fair";		
 	
-		//m.addParola(s1);
-		//m.addParola(s2);
-//		m.addParola(s3);
-//		m.addParola(s4);
-//		m.addParola(s5);
-//		m.addParola(s6);
-//		m.addParola(s7);
+		m.addParola(s1);
+		m.addParola(s2);
+		m.addParola(s3);
+		m.addParola(s4);
+		m.addParola(s5);
+		m.addParola(s6);
+		//m.addParola(s7);
 		
-		m.stampaParole();	
-		 m.parolaNonLegata(s8);	
+		m.stampaLista();
+		//m.dimensione();
+		//m.stampaParole();	
+		 //m.parolaNonLegata(s8);	
 		//m.totale();
 	   //	m.parolaAccettata(s8);
 
