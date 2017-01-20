@@ -3,7 +3,6 @@ package provaJava;
 import java.util.LinkedList;
 import java.util.List;
 
-
 public class Model {
 	
 	private List<String > parole = new LinkedList <String>();
@@ -18,8 +17,6 @@ public class Model {
 		}
 		//System.out.println(parole.toString());
 	}
-	
-	
 	
 	public boolean parolaPresente (String parolaNuova){
 		if(parole.contains(parolaNuova)){
@@ -74,5 +71,4 @@ public class Model {
 	public void stampaParole(){
 		System.out.println(parole);
 	}
-
 }
